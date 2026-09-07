@@ -81,7 +81,7 @@
        @endif --}}
     </div>
     <div class="product-info">
-       <h3 class="product-name text-gold"><a class="line-clamp line-clamp-1"
+       <h3 class="product-name text-gold"><a class="line-clamp"
           href="{{ $productUrl }}"
           title="{{ $productName }}">{{ $productName }}</a></h3>
        <div class="price-box">
