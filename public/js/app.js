@@ -20141,6 +20141,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -22391,6 +22395,10 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+//
+//
+//
+//
 //
 //
 //
@@ -339214,7 +339222,8 @@ var render = function() {
               [
                 _c("label", [_vm._v("Mô tả ngắn")]),
                 _vm._v(" "),
-                _c("vs-textarea", {
+                _c("TinyMce", {
+                  attrs: { "focus-keyword": _vm.seoData.focusKeyword },
                   model: {
                     value: _vm.objData.description[0].content,
                     callback: function($$v) {
@@ -342542,7 +342551,8 @@ var render = function() {
               [
                 _c("label", [_vm._v("Mô tả ngắn")]),
                 _vm._v(" "),
-                _c("vs-textarea", {
+                _c("TinyMce", {
+                  attrs: { "focus-keyword": _vm.seoData.focusKeyword },
                   model: {
                     value: _vm.objData.description[0].content,
                     callback: function($$v) {

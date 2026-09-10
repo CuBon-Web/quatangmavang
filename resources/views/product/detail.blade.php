@@ -387,6 +387,9 @@ product
                      <button type="button" class="pd-btn pd-btn--cart"> Thêm vào giỏ hàng</button>
                      <button type="button" class="pd-btn pd-btn--buy">Mua ngay</button>
                   </div>
+                  <div class="description" style="margin-top: 20px;">
+                     {!! languageName($product->description) !!}
+                  </div>
                </form>
 
                @if ($hotline || $facebookUrl || $zaloUrl)
