@@ -78,6 +78,9 @@
                     </a>
                     </span>
                  </div>
+                 <div>
+                  {!!$setting->iframe_map!!}
+                 </div>
               </div>
            </div>
         </div>
