@@ -329,6 +329,9 @@
          return false;
      });
   </script>
+  @if (count($ReviewCus) > 0)
+      
+ 
   <section class="section_danh_gia lazyload"
      data-src="/frontend/images/bg_danh_gia.jpg">
      <div class="container">
@@ -404,7 +407,7 @@
          }
      });
   </script>
-
+ @endif
   <section class="section_blog">
      <div class="container">
         <h2 class="title-module">
